@@ -44,7 +44,6 @@ async function runTests() {
             };
         };
 
-        // Поднимаем локальный Express сервер из server.js на любом свободном порту
         const server = await new Promise((resolve) => {
             const s = app.listen(0, () => resolve(s));
         });
