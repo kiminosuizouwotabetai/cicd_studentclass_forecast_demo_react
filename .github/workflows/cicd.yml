@@ -61,6 +61,7 @@ jobs:
 
   deploy:
     needs: build_and_pack
+    if: false
     runs-on: ubuntu-latest
     steps:
     - name: Скачиваем код
